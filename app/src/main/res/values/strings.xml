@@ -6,4 +6,5 @@
     <string name="contact">Contact</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+    <string name="add_word">Add Word</string>
 </resources>
