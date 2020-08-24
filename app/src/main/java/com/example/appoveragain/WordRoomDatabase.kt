@@ -23,18 +23,6 @@ abstract class WordRoomDatabase : RoomDatabase() {
                 scope.launch {
                     var wordDao = database.wordDao()
 
-                    // Delete all content here.
-                    wordDao.deleteAll()
-
-                    // Add sample words.
-                    var word = Word("Hello")
-                    wordDao.insert(word)
-                    word = Word("World!")
-                    wordDao.insert(word)
-
-                    // TODO: Add your own words!
-                    word = Word("TODO!")
-                    wordDao.insert(word)
                 }
             }
         }

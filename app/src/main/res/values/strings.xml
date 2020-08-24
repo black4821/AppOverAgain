@@ -7,4 +7,7 @@
     <string name="open">Open</string>
     <string name="close">Close</string>
     <string name="add_word">Add Word</string>
+    <string name="hint_word">Word...</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Word not saved because it is empty.</string>
 </resources>
