@@ -7,6 +7,9 @@ android {
     compileSdkVersion 30
     buildToolsVersion "30.0.2"
 
+    packagingOptions {
+        exclude 'META-INF/atomicfu.kotlin_module'
+    }
     defaultConfig {
         applicationId "com.example.appoveragain"
         minSdkVersion 19
